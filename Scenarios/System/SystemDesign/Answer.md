@@ -16,9 +16,16 @@ The choice of the approach is motivated by the nature of the requirement. The re
 
 Initially, determing the stakeholders' and/or clients' needs, and systems requirements is important to establish by engaging with the potential clients to better understand their requirements for machinery monitoring in the web application. This is expected to cover information regarding the types of machines, data that needs to be tracked, the frequency at which data needs to be updated, any specific details in the form of notifications or reporting, and so on. The solution will have a special focus on integration with existing services, scalability, security, and customer satisfaction. 
 
-Once the requirements have been gathered (The WHAT), a scope of the system needs to be drawn in order for the project timelines to be established and avoid building features that are out of scope. The scope will be broken down into manageable iterations and planned according to the project timeline. 
+Once the requirements have been gathered (The WHAT), a scope of the system needs to be drawn in order for the project timelines to be established and avoid building features that are out of scope. The scope will be broken down into manageable iterations and planned according to the project timeline using an iterative project management method. 
 
 After the above has been discovered, an analysis of the requirements needs to be done where the WHAT is modeled then after, the focus would shift to HOW the solution will be designed and implemented. Below is an outline of the approach.
+
+### Method
+The method used to design and implement the solution will be an iterative process where the goal is reached in a series of ever improving delivery cycles as depicted in the image below. The implementation is a series of short mini projects. Each iteration gives a tested, integrated and executable system.
+
+![Iterative process](image-1.png)
+
+This method is greatly for this kind of task where the risk of the project failing is greatly reduced by taking one shot at the project and steering the way to success using information instead of launching blindly to the unknown. High priority features aree developed first and user feedback is gathered and the cycle repeats until the requirements are met.
 
 ### Design
 
