@@ -25,10 +25,11 @@ The method used to design and implement the solution will be an iterative proces
 
 ![Iterative process](image-1.png) Iterative process
 
-This method is greatly for this kind of task where the risk of the project failing is greatly reduced by taking one shot at the project and steering the way to success using information instead of launching blindly to the unknown. High priority features aree developed first and user feedback is gathered and the cycle repeats until the requirements are met.
+This method is suitable for this kind of task where the risk of the project failing is greatly reduced by taking one shot at the project and steering the way to success using information instead of launching blindly to the unknown. High priority features aree developed first and user feedback is gathered and the cycle repeats until the requirements are met.
 
 ### Design
 
+Architecture: 
 ---TODO
 ---In addition to uncovering what needs to be done, the service model needs to be defined, including the price per license. Determining the definition for a "license" in the context of the service provided is crucial (for example, is the application licensed per volume of data handled, per machine registered etc.).
 
