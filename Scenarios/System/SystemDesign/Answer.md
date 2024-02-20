@@ -1,6 +1,4 @@
-The design and implementation approach of such a project would include gathering requirements, planning, analysis, designing, building, testing and evaluating phases using an agile iterative approach. The choice of the approach is motivated by the nature of the requirement. The requirement is quite general and the solution needs to be uncovered in a series of iterations for the solution to derive value in a timely and cost effective manner. I will be using the iterative method depicted in the image below: 
-
-![Alt text](image.png)
+The design and implementation approach of such an application would include gathering requirements, planning, analysis, designing, building, testing, deployment and evaluating phases. The choice of the approach is motivated by the nature of the requirement. The requirement is quite general and the ideal solution needs to be uncovered in a series of iterations for the solution to derive value in a timely and cost effective manner.  
 
 The initial requirements have been outlined in the question. The solution will have a special focus on integration with existing services, scalability, security, and customer satisfaction. Below, I will outline the strategy from planning to deployment and beyond. 
 
@@ -14,13 +12,19 @@ Once the requirements have been gathered, a scope of the system needs to be draw
 
 ### System Design
 
-Architecture: To support the groth of the system and at the same time be flexible in functionalities, I would adopt a microservice-architecture considering that the application would integrate with existing services. Mircoservices will allow independent development, deployment, and scalable services for the application.
+Architecture: To support the growth of the system and at the same time be flexible in functionalities, I would adopt a microservice-architecture considering that the application would integrate with existing services. Mircoservices will allow independent development, deployment, and scalable services for the application. The modularity of the architecture will enable future services to be developed and extended within the system.
 
-Databases: For large transactional/ unstructured data, a non-relational database like Mongodb will be applicable to scalability and flexibility as suggested. 
+Databases: For large transactional/ unstructured data, a non-relational database like Mongodb will be applicable to scalability and flexibility as suggested. On the other hand, for masterdata and service configuration data, a relational database like MySQL will be considered. The selection of the databases for the Saas application depends on 
 
-On the other hand, for masterdata and service configuration data, a relational database like MySQL will be considered.
+API integration: Develop RESTful APIs that are connected with existing services, allowing retrieval of monitoring data; ensuring that these APIs are secure, scalable, and well documented. Security can me ensured by adequate authentication and authorization mechanisms like OAuth2 and JWT, data encryption for sensitive data and periodic security audits. 
 
-API integration: Develop RESTful APIs that are connected with existing services, allowing retrieval of monitoring data; ensuring that these APIs are secure, scalable, and well documented. Security can me ensured by adequate authentication and authorization mechanisms like OAuth2 and JWT, data encryption for sensitive data and periodic security audits.
+### Implementation / Development
 
+I would implement an agile development methodology in the way of a lifecycle of the the project that ensures iterative development, sustainable feedback and adaptation to changing needs. See development approach below:
 
+![Alt text](image.png)
+
+Frontend: Develop user interfaces that the user interacts with to configure service, view machine health metrics and get notifications. To achieve this, I would adopt the use of morden, responsive, and interactive UIs using either front-end development frameworks such as Angular, Vuejs or React technologies for modularity and scalability.
+
+Backend: Implement the earlier designed Restful APIs such that they expose functionality of the system securely. Moreover, ensure that the system is well integrated with the services required in place by the use of APIs in data exchanfe and extending functionality.
 
