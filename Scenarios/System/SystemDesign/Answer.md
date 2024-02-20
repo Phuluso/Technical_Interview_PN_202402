@@ -1,6 +1,6 @@
 I always consider Simon Sineks Goldern circle when embarking on delivering solutions to problems. Although the context in which he discusses the principles is in business strategy I believe that it is applicable and important in solution desing. Here is a short video of him explaining https://youtu.be/Jeg3lIK8lro.
 
-![Simon Senik - The Goldern circle](image.png)
+![Simon Senik - The Goldern circle](image.png) The goldern circle - Simon Sinek
 
 The WHY is defined in the scenario - to monitor the health of large machinery at their fascilities.
 
@@ -23,7 +23,7 @@ After the above has been discovered, an analysis of the requirements needs to be
 ### Method
 The method used to design and implement the solution will be an iterative process where the goal is reached in a series of ever improving delivery cycles as depicted in the image below. The implementation is a series of short mini projects. Each iteration gives a tested, integrated and executable system.
 
-![Iterative process](image-1.png)
+![Iterative process](image-1.png) Iterative process
 
 This method is greatly for this kind of task where the risk of the project failing is greatly reduced by taking one shot at the project and steering the way to success using information instead of launching blindly to the unknown. High priority features aree developed first and user feedback is gathered and the cycle repeats until the requirements are met.
 
