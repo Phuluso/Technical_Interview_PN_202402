@@ -60,40 +60,50 @@ Non-relational databases also need to be designed. The data types and the volume
 
 To improve scalability considerations to partition the data into clusters need to be made.
 
-The scenario has already outlined the databses that are being used. For large data volumes, a non-relational database like Mongodb will be applicable to scalability and flexibility as suggested. On the other hand, for masterdata and service configuration data, a relational database like MySQL will be considered. The schema of the databases should ensure efficient data storage and querying.
-
-# Services
-
-# API Gateway: 
-Develop RESTful APIs that are connected with existing, allowing retrieval of monitoring data; ensuring that these APIs are secure, scalable, and well documented.  
+The scenario has already outlined the databses that are being used. For large data volumes, a non-relational database like Mongodb will be applicable to scalability and flexibility as suggested. On the other hand, for masterdata and service configuration data, a relational database like MySQL will be considered. The schema of the databases should ensure efficient data storage and querying. 
 
 ## Prototyping: 
 Once the requirements have been gathered and analysed, it is essential to create prototypes to refine the requirements.
 This helps visualise and get feedback from the potential client. These prototypes are to be done in the early iterations of design so that resources are used sparingly.
 
+
+# API Gateway: 
+Design RESTful APIs that connect with existing services through an API gateway, allowing retrieval of monitoring data; ensuring that these APIs are secure, scalable, and well documented. 
+Security of the application should be ensured by adequate authentication and authorization mechanisms like OAuth2 and JWT, data encryption for sensitive data and periodic security audits.
+
+By centralising requests through an API Gateway, the client is relieved of the burden of engaging with several, potentially different microservices. 
+
 ### Implementation
+This phase is focused on turning the design of the system into a working software solution. 
 
 # Method
-The method used to design and implement the solution will be an iterative process where the goal is reached in a series of ever improving delivery cycles as depicted in the image below. The implementation is a series of short mini projects. Each iteration gives a tested, integrated and executable system, ensuring sustainable feedback and adaptation to changing needs.
+The method used to implement the solution will be an agile iterative process where the goal is reached in a series of ever improving delivery cycles as depicted in the image below. The implementation is a series of short mini projects. Each iteration gives a tested, integrated and executable system, ensuring sustainable feedback and adaptation to changing needs.
 
 ![Iterative process](image-1.png) 
 Iterative process
 
 This method is suitable for this kind of task where the risk of the project failing is greatly reduced by taking one shot at the project and steering the way to success using information instead of launching blindly to the unknown. High priority features aree developed first and user feedback is gathered and the cycle repeats until the requirements are met.
  
-# Backend: 
-Implement the earlier designed Restful APIs such that they expose functionality of the system securely. Moreover, ensure that the system is well integrated with the services required in place by the use of APIs in data exchande and extending functionality.
+# Backend:
+ 
+Implement the earlier designed Restful APIs such that they expose functionality of the system securely. Moreover, ensure that the system is well integrated with the services required in place by the use of APIs in data exchange and extending functionality. Further implement the services required each with its own business logic and domail model.
 
 # Frontend: 
 Develop user interfaces that the user interacts with to configure service, view machine health metrics and get notifications adapted from the prototypes in the design phase. To achieve this, I would adopt the use of morden, responsive, and interactive UIs using either front-end development frameworks such as Angular, Vuejs or React for modularity and scalability, depending on the expertise available to the company. Integrate with the backend APIs for maachine monitoring data to be accessible to the client from the front-end.
 
-# Security
+# Database
+Setup the databases schema according to the design defining the tables, relationships and optimized queries.
 
-Security of the application should be ensured by adequate authentication and authorization mechanisms like OAuth2 and JWT, data encryption for sensitive data and periodic security audits.
+# Vernsion control
+Setup a version control system for the application.
 
 # Testing: 
+For each iteration unit tests, end to end testing and integration tests should be done for the executable system to be reliable and performant. A quality assurance stage should also be setup to test the system before it is deployed to production.
 
 # Continuous integration and deployment
+
+ The application should be deployed to a dependable hosting service and configur 
+
 
 
 
