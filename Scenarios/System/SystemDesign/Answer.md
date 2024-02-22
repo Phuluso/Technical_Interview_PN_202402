@@ -32,7 +32,7 @@ The system design is justified in terms of the expected behavior of the final pr
 It has a special focus on integration with existing services, scalability, security, and customer satisfaction.  
 
 ## Architecture: 
-To support the growth of the system and at the same time flexibility, I would adopt a microservice-architecture considering that the application would integrate with existing and future services. A mircoservices architecture will allow independent development, deployment, and scalable services for the application. The modularity of the architecture enables each service to be responsible for a specific aspect of the application based on business functionalities. 
+To support the growth of the system and at the same time flexibility, I would adopt a microservice-architecture considering that the application would integrate with existing and future services. A mircoservices architecture will allow independent development, deployment, and scalable services for the application. The modularity of the architecture enables each service to be responsible for a specific aspect of the application based on business functionalities. Below is a high level depiction of the architecture to be adopted.
 
 ![Alt text](image-8.png)
 Machine monitor Microservice architecture
