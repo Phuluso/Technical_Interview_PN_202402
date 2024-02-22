@@ -14,7 +14,7 @@ The choice of the approach is motivated by the nature of the requirement. The re
 
 ![Alt text](image-6.png)
 
-#  Planning and requirements:
+#  Planning and requirements
 
 Initially, determing the stakeholders' and/or clients' needs, and systems requirements is important to establish by engaging with the potential stakeholders to better understand their requirements for machinery monitoring in the web application. This is expected to cover information regarding the types of machines, data that needs to be tracked, the frequency at which data needs to be updated, any specific details in the form of notifications or reporting, and so on. 
 
@@ -31,7 +31,7 @@ Below is an outline of the approach.
 The system design is justified in terms of the expected behavior of the final product.
 It has a special focus on integration with existing services, scalability, security, and customer satisfaction.  
 
-## Architecture: 
+## Architecture
 To support the growth of the system and at the same time flexibility, I would adopt a microservice-architecture considering that the application would integrate with existing and future services. A mircoservices architecture will allow independent development, deployment, and scalable services for the application. The modularity of the architecture enables each service to be responsible for a specific aspect of the application based on business functionalities. Below is a high level depiction of the architecture to be adopted.
 
 ![Alt text](image-8.png)
@@ -62,12 +62,12 @@ To improve scalability considerations to partition the data into clusters need t
 
 The scenario has already outlined the databses that are being used. For large data volumes, a non-relational database like Mongodb will be applicable to scalability and flexibility as suggested. On the other hand, for masterdata and service configuration data, a relational database like MySQL will be considered. The schema of the databases should ensure efficient data storage and querying. 
 
-## Prototyping: 
+## Prototyping
 Once the requirements have been gathered and analysed, it is essential to create prototypes to refine the requirements.
 This helps visualise and get feedback from the potential client. These prototypes are to be done in the early iterations of design so that resources are used sparingly.
 
 
-## API Gateway: 
+## API Gateway
 Design RESTful APIs that connect with existing services through an API gateway, allowing retrieval of monitoring data; ensuring that these APIs are secure, scalable, and well documented. 
 Security of the application should be ensured by adequate authentication and authorization mechanisms like OAuth2 and JWT, data encryption for sensitive data and periodic security audits.
 
@@ -84,11 +84,11 @@ Iterative process
 
 This method is suitable for this kind of task where the risk of the project failing is greatly reduced by taking one shot at the project and steering the way to success using information instead of launching blindly to the unknown. High priority features aree developed first and user feedback is gathered and the cycle repeats until the requirements are met.
  
-## Backend:
+## Backend
  
 Implement the earlier designed Restful APIs such that they expose functionality of the system securely. Moreover, ensure that the system is well integrated with the services required in place by the use of APIs in data exchange and extending functionality. Further implement the services required each with its own business logic and domail model.
 
-## Frontend: 
+## Frontend
 Develop user interfaces that the user interacts with to configure service, view machine health metrics and get notifications adapted from the prototypes in the design phase. To achieve this, I would adopt the use of morden, responsive, and interactive UIs using either front-end development frameworks such as Angular, Vuejs or React for modularity and scalability, depending on the expertise available to the company. Integrate with the backend APIs for maachine monitoring data to be accessible to the client from the front-end.
 
 ## Database
@@ -97,7 +97,7 @@ Setup the databases schema according to the design defining the tables, relation
 ## Vernsion control
 Setup a version control system for the application.
 
-## Testing: 
+## Testing
 For each iteration unit tests, end to end testing and integration tests should be done for the executable system to be reliable and performant. A quality assurance stage should also be setup to test the system before it is deployed to production.
 
 ## Continuous integration and deployment
