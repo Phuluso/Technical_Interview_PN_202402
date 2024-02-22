@@ -24,6 +24,8 @@ In addition to uncovering what needs to be done, the service model needs to be d
 
 After the above has been discovered, an analysis and design of the requirements needs to be done where the 'HOW' is modeled then after, the focus would shift to implementing the solution. 
 
+The requirements and plan should be documented and centralized for reference.
+
 Below is an outline of the approach.
 
 # Analysis & Design
@@ -73,6 +75,9 @@ Security of the application should be ensured by adequate authentication and aut
 
 By centralising requests through an API Gateway, the client is relieved of the burden of engaging with several, potentially different microservices. 
 
+
+The analysis and design should be documented including its artifects and centralized for reference.
+
 # Implementation
 This phase is focused on turning the design of the system into a working software solution. 
 
@@ -105,6 +110,7 @@ Since a microservice achitecture will be adopted, a poly-repository approach wou
 
  The application should be deployed to a dependable hosting service and configured for monitoring an logging considering containerization of the services.CI/CD pipelines should be configured for each repository to a QA stage an a production stage to ensure continuos integration an deployment. 
 
+The Implementation should be documented and centralized for reference.
 
 
 
