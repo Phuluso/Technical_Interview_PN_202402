@@ -24,13 +24,8 @@ In addition to uncovering what needs to be done, the service model needs to be d
 
 After the above has been discovered, an analysis and design of the requirements needs to be done where the 'HOW' is modelled then after, the focus would shift to implementing the solution. 
 
-<<<<<<< HEAD
 The requirements and plan (including artifacts) should be documented and centralized for reference.
 
-=======
-The requirements and plan should be documented and centralized for reference.
-
->>>>>>> 50ecc70e5e5268b54480f8c3575e92944ab1ba6c
 Below is an outline of the approach.
 
 # Analysis & Design
@@ -38,13 +33,8 @@ Below is an outline of the approach.
 The system design is justified in terms of the expected behaviour of the final product.
 It has a special focus on integration with existing services, scalability, security, and customer satisfaction.  
 
-<<<<<<< HEAD
 ## Architecture: 
 To support the growth of the system and at the same time flexibility, I would adopt a microservice-architecture considering that the application would integrate with existing and future services. A microservice architecture will allow independent development, deployment, and scalable services for the application. The modularity of the architecture enables each service to be responsible for a specific aspect of the application based on business functionalities. Below is a high-level depiction of the architecture to be adopted.
-=======
-## Architecture
-To support the growth of the system and at the same time flexibility, I would adopt a microservice-architecture considering that the application would integrate with existing and future services. A mircoservices architecture will allow independent development, deployment, and scalable services for the application. The modularity of the architecture enables each service to be responsible for a specific aspect of the application based on business functionalities. Below is a high level depiction of the architecture to be adopted.
->>>>>>> 50ecc70e5e5268b54480f8c3575e92944ab1ba6c
 
 ![Alt text](image-8.png)
 Machine monitor Microservice architecture
@@ -85,14 +75,8 @@ Security of the application should be ensured by adequate authentication and aut
 
 By centralising requests through an API Gateway, the client is relieved of the burden of engaging with several, potentially different microservices. 
 
-<<<<<<< HEAD
 The analysis and design should be documented including its artifects and centralized for reference.
 
-=======
-
-The analysis and design should be documented including its artifects and centralized for reference.
-
->>>>>>> 50ecc70e5e5268b54480f8c3575e92944ab1ba6c
 # Implementation
 This phase is focused on turning the design of the system into a working software solution. 
 

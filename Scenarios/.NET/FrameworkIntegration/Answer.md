@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 There are two approaches to making the upgrades. Manually upgrading and using and upgrade assistant tool. The latter is preffered to manual project upgrades. Microsoft has a tool called .Net Upgrade Assistant to facilitate .Net core and .Net Framework application upgrades to later versions.  
-=======
-There are two approaches to making the upgrades. Manually upgrading and using an upgrade assistant tool. The latter is preffered to manual project upgrades. Microsoft has a tool called .Net Upgrade Assistant to facilitate .Net core and .Net Framework application upgrades to later versions.  
->>>>>>> 50ecc70e5e5268b54480f8c3575e92944ab1ba6c
 
 The .NET Upgrade assistant tool helps developers ease the process of updating existing applications with previous versions into specific versions. For the case at hand, the target version is .NET 8. This tool automates many of the manual activities associated with migrating earlier version of .NET into modern ones.
 
